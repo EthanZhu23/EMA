@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ema">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".EighthPage"
+            android:label="@string/title_activity_eighth_page" />
+        <activity
+            android:name=".SeventhPage"
+            android:label="@string/title_activity_seventh_page" />
+        <activity
+            android:name=".SixthPage"
+            android:label="@string/title_activity_sixth_page" />
+        <activity
+            android:name=".FifthPage"
+            android:label="@string/title_activity_fifth_page" />
+        <activity
+            android:name=".Fourth"
+            android:label="@string/title_activity_fourth" />
+        <activity
+            android:name=".ThirdPage"
+            android:label="@string/title_activity_third_page" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondPage" />
+    </application>
+
+</manifest>
