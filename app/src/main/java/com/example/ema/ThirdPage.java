@@ -16,7 +16,7 @@ public class ThirdPage extends AppCompatActivity implements View.OnClickListener
     Button button3;
     Button button4;
     Button button5;
-    private ArrayList message = new ArrayList<>();
+    public ArrayList<Integer> message = new ArrayList<>();
 
 
     @Override

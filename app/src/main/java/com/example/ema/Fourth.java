@@ -21,7 +21,7 @@ public class Fourth extends AppCompatActivity implements View.OnClickListener {
     Button button8;
     Button button9;
     Button button10;
-    private ArrayList message = new ArrayList<>();
+    public ArrayList<Integer> message = new ArrayList<>();
 
 
 

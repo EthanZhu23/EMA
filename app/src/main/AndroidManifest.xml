@@ -25,6 +25,10 @@
             android:value="true" />
 
         <activity
+            android:name=".NinthPage"
+            android:label="NinthPage" />
+
+        <activity
             android:name=".EighthPage"
             android:label="@string/title_activity_eighth_page" />
         <activity

@@ -16,7 +16,7 @@ public class MainActivity extends WearableActivity implements View.OnClickListen
 
     Button button_Y;
     Button button_N;
-    private ArrayList message = new ArrayList<>();
+    public ArrayList<Integer> message = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

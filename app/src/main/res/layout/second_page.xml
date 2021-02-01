@@ -5,18 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_grey"
-    android:padding="@dimen/box_inset_layout_padding"
+    android:padding="15dp"
     tools:context=".SecondPage"
     tools:deviceIds="wear">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="5dp">
 
         <Button
             android:id="@+id/button2"
             android:layout_width="31dp"
             android:layout_height="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:fitsSystemWindows="true"
             android:background="@drawable/round_button"
             android:text="@string/n"
             android:textAlignment="center"
@@ -33,6 +37,9 @@
             android:id="@+id/text"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:fitsSystemWindows="true"
             android:text="@string/are_you_having_a_hot_flush_now"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,6 +53,9 @@
             android:id="@+id/button1"
             android:layout_width="31dp"
             android:layout_height="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:fitsSystemWindows="true"
             android:background="@drawable/round_button"
             android:text="@string/y"
             android:textAlignment="center"

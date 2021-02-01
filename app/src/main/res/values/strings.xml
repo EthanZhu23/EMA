@@ -28,16 +28,17 @@
     <string name="how_much_are_you_bothered_by_this_symptom_n_0_not_at_all_4_extremely">How much are you bothered by this symptom?\n(0=not at all, 4=extremely)</string>
     <string name="_0">0</string>
     <string name="title_activity_fourth">Fourth</string>
-    <string name="what_is_your_level_of_pain_n_0_none_10_extreme">what is your level of pain right now? \n(0=none, 10=extreme)</string>
+    <string name="what_is_your_level_of_pain_n_0_none_10_extreme">what is your level of pain right now? (1=none, 10=extreme)</string>
     <string name="title_activity_fifth_page">FifthPage</string>
-    <string name="what_is_your_level_of_fatigue_righ_now_n_0_none_10_extreme">what is your level of fatigue right now? \n (0=none, 10=extreme)</string>
+    <string name="what_is_your_level_of_fatigue_right_now_n_0_none_10_extreme">what is your level of fatigue right now? (1=none, 10=extreme)</string>
     <string name="title_activity_sixth_page">SixthPage</string>
     <string name="are_you_experiencing_a_stressful_event">Are you experiencing a stressful event?</string>
     <string name="title_activity_seventh_page">SeventhPage</string>
-    <string name="how_unpleasant_is_the_stressful_event_n_0_not_at_all_10_extreme">How unpleasant is the stressful event? \n (0=not at all, 10=extreme)</string>
+    <string name="how_unpleasant_is_the_stressful_event_n_0_not_at_all_10_extreme">How unpleasant is the stressful event? (1=not at all, 10=extreme)</string>
     <string name="title_activity_eighth">Eighth</string>
     <string name="title_activity_eighth_page">EighthPage</string>
-    <string name="how_anxious_do_you_feel_right_now_n_0_not_at_all_10_extreme">How anxious do you feel right now? \n (0=not at all, 10=extreme)</string>
+    <string name="how_anxious_do_you_feel_right_now_n_0_not_at_all_10_extreme">How anxious do you feel right now? (1=not at all, 10=extreme)</string>
+    <string name="thanks">Thanks</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.

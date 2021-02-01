@@ -13,7 +13,7 @@ public class SecondPage extends AppCompatActivity implements View.OnClickListene
 
     Button button_Y;
     Button button_N;
-    private ArrayList message = new ArrayList<>();
+    public ArrayList<Integer> message = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +44,7 @@ public class SecondPage extends AppCompatActivity implements View.OnClickListene
         Intent intent = new Intent(this, ThirdPage.class);
         intent.putIntegerArrayListExtra("Second_Page", message);
         startActivity(intent);
+        finish();
     }
 
 

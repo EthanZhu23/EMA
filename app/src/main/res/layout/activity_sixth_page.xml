@@ -5,18 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_grey"
-    android:padding="@dimen/box_inset_layout_padding"
+    android:padding="15dp"
     tools:context=".SixthPage"
     tools:deviceIds="wear">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="5dp">
 
         <Button
             android:id="@+id/button2"
             android:layout_width="31dp"
             android:layout_height="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:fitsSystemWindows="true"
             android:background="@drawable/round_button"
             android:text="@string/n"
             android:textAlignment="center"
@@ -35,6 +39,9 @@
             android:layout_height="wrap_content"
             android:text="@string/are_you_experiencing_a_stressful_event"
             android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:fitsSystemWindows="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
@@ -51,6 +58,9 @@
             android:textAlignment="center"
             android:textColor="#000"
             android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:fitsSystemWindows="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.295"

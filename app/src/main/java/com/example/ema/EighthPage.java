@@ -21,7 +21,7 @@ public class EighthPage extends AppCompatActivity implements View.OnClickListene
     Button button8;
     Button button9;
     Button button10;
-    private ArrayList message = new ArrayList<>();
+    public ArrayList<Integer> message = new ArrayList<>();
 
 
     @Override
@@ -92,6 +92,9 @@ public class EighthPage extends AppCompatActivity implements View.OnClickListene
         }
 
         System.out.println(message);
+
+        Intent intent = new Intent(this, NinthPage.class);
+        startActivity(intent);
 
     }
 }
